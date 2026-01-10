@@ -31,15 +31,40 @@ with the TMDB API to fetch movie posters and additional details, providing a ric
   
 # NLP & ML 
 - TF‑IDF Vectorizer
-
-# Project Structure
-movie-rec-main/
-│
-├── app.py # Streamlit frontend
-├── main.py # FastAPI backend
-├── movies.ipynb # Data preprocessing & model building
-├── movies_metadata.csv # Dataset
-├── requirements.txt # Project dependencies
-├── runtime.txt # Runtime configuration (for deployment)
-└── .env # Environment variables (TMDB API key)
 - Cosine Similarity
+
+# How It Works
+
+1) Movie overviews are cleaned and preprocessed
+2) Text data is converted into numerical vectors using TF‑IDF
+3) Cosine similarity is computed between movie vectors
+4) Given a movie title, the system finds the most similar movies
+5) Movie posters and extra details are fetched using TMDB API
+
+# How to Run the Project Locally
+1) Clone the Repository
+   git clone https://github.com/your-username/Movie-Recommendation-using-NLP.git
+   cd movie-rec-main
+2) Create Virtual Environment
+   python -m venv .venv
+   source .venv/bin/activate
+3) Install Dependencies
+   pip install -r requirements.txt
+4) Setup Environment Variables
+   TMDB_API_KEY=your_tmdb_api_key
+5) Run FastAPI Backend
+   uvicorn main:app --reload
+6) Run Streamlit Frontend
+   streamlit run app.py
+
+
+
+
+
+
+
+
+
+
+
+
