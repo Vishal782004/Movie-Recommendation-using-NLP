@@ -16,7 +16,7 @@ with the TMDB API to fetch movie posters and additional details, providing a ric
 - Deployed‑ready architecture
 
 # Technologies Used
-* Backend *
+# Backend
 - Python
 - FastAPI
 - Uvicorn
@@ -26,9 +26,9 @@ with the TMDB API to fetch movie posters and additional details, providing a ric
 - SciPy
 - HTTPX
   
-* Frontend *
+# Frontend 
 - Streamlit
 - 
-* NLP & ML *
+# NLP & ML 
 - TF‑IDF Vectorizer
 - Cosine Similarity
