@@ -43,19 +43,19 @@ with the TMDB API to fetch movie posters and additional details, providing a ric
 
 # How to Run the Project Locally
 1) Clone the Repository
-   git clone https://github.com/your-username/Movie-Recommendation-using-NLP.git
-   cd movie-rec-main
+   - git clone https://github.com/your-username/Movie-Recommendation-using-NLP.git
+     cd movie-rec-main
 2) Create Virtual Environment
-   python -m venv .venv
-   source .venv/bin/activate
+   - python -m venv .venv
+   - source .venv/bin/activate
 3) Install Dependencies
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 4) Setup Environment Variables
-   TMDB_API_KEY=your_tmdb_api_key
+   - TMDB_API_KEY=your_tmdb_api_key
 5) Run FastAPI Backend
-   uvicorn main:app --reload
+   - uvicorn main:app --reload
 6) Run Streamlit Frontend
-   streamlit run app.py
+   - streamlit run app.py
 
 
 
