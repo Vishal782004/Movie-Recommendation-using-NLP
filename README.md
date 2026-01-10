@@ -57,8 +57,19 @@ with the TMDB API to fetch movie posters and additional details, providing a ric
 6) Run Streamlit Frontend
    - streamlit run app.py
 
+# Dataset
+- Source: TMDB Movies Metadata
+- Contains movie titles, overviews, genres, ratings, and release dates
 
+# Deployment
+- Backend can be deployed on Render / Railway / AWS / Azure
+- Frontend can be deployed on Streamlit Cloud
 
+# Future Improvements
+- Hybrid recommendation (content + collaborative)
+- User login & watch history
+- Advanced embeddings (Word2Vec / BERT)
+- Improved UI/UX
 
 
 
