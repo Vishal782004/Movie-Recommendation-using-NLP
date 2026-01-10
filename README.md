@@ -28,7 +28,18 @@ with the TMDB API to fetch movie posters and additional details, providing a ric
   
 # Frontend 
 - Streamlit
-- 
+  
 # NLP & ML 
 - TF‑IDF Vectorizer
+
+# Project Structure
+movie-rec-main/
+│
+├── app.py # Streamlit frontend
+├── main.py # FastAPI backend
+├── movies.ipynb # Data preprocessing & model building
+├── movies_metadata.csv # Dataset
+├── requirements.txt # Project dependencies
+├── runtime.txt # Runtime configuration (for deployment)
+└── .env # Environment variables (TMDB API key)
 - Cosine Similarity
