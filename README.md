@@ -5,7 +5,9 @@ It recommends similar movies based on movie descriptions using TF‑IDF vectoriz
 The backend is powered by FastAPI, and a simple Streamlit frontend is used for user interaction.The system also integrates
 with the TMDB API to fetch movie posters and additional details, providing a richer user experience.
 
-![image alt]([image_url](https://github.com/Vishal782004/Movie-Recommendation-using-NLP/blob/be03e34f2411d22a41c303d6cf18ec654c0e23be/Movie_Recommendation.png?raw=true))
+![image](https://github.com/username/repo/assets/123456/image.png)
+
+
 
 
 # Features
